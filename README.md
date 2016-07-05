@@ -1,4 +1,4 @@
-# YangJian's personal site
+# LiYong's personal site
 
 Personal site hosted on Github.
-[yangjian.me](http://yangjian.me)
+[liyong.info](http://liyong.info)
