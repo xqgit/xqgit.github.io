@@ -21,9 +21,9 @@
         <div class="menu">
             <a href="https://github.com/ly0518" class="animate-init">GitHub</a>
             <a href="http://lyblog.me" class="animate-init">Notes</a>
-            <a href="https://www.douban.com/people/147649772/" class="animate-init">DouBan</a>
+           <a href="#" onclick="gojl()" class="animate-init">简历</a>
             <a href="http://weibo.com/u/5761822403?is_all=1" class="animate-init">WeiBo</a>
-            
+            <a href="#" onclick="goyuan()" class="animate-init">Yuan</a>
         </div>
         <div class="location">
             <i class="location-icon"></i>
@@ -40,6 +40,24 @@
 </div>
 <script type="text/javascript" src="assets/vendors/jquery/index.js"></script>
 <script>
+		function goyuan(){
+			phone = prompt("请输入手机号码:","188654....");
+			if ('18865417296' == phone){
+				window.location.href="http://iyuanyuan.me"; 
+			}else{
+				alert("你输入有误，重新输入....");
+			}
+
+		}
+		function gojl() {
+			phone = prompt("请输入手机号码:","156669....");
+			if ('15666976851' == phone){
+				window.location.href="http://iyuanyuan.me"; 
+			}else{
+				alert("你输入有误，重新输入....");
+			}
+		}
+
     $(document).ready(function () {
         var delay = 1;
         var DELAY_STEP = 200;
@@ -69,6 +87,7 @@
                 top: 0
             }).promise().done(animationQuote);
         }
+		
 
         function animationQuote() {}
 
@@ -83,6 +102,15 @@
                 }, 1000);
             }
         });
+
+		document.onkeydown = function (e) {  
+			if (!e) e = window.event;  
+			 if ((e.keyCode || e.which) == 13) {  
+			// var obtnLogin = document.getElementById("submit_btn");   //submit_btn为按钮ID  
+			//obtnLogin.focus();  
+			
+			}  
+		}  
     });
 </script>
 </body>
