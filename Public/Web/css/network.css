@@ -1,0 +1,158 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    /* font-weight: inherit; */
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+table, td, th {
+    vertical-align: middle;
+}
+#article-inc {
+    color: #000000;
+    font-size: 14px;
+    line-height: 2em;
+    min-height: 360px;
+    padding: 10px 12px;
+    width:600px;
+}
+#netlist {
+    margin-top: 20px;
+}
+#netlist h4 {
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+#netlist table {
+    border-collapse: collapse;
+    color: #666666;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+#netlist table th {
+    background: none repeat scroll 0 0 #DEE8F5;
+    color: #000000;
+    text-align: center;
+}
+#netlist table th, #netlist table td {
+    border: 1px solid #EEF2F6;
+}
+#netlist table th.tbl-1 {
+    width: 60px;
+}
+#netlist table th.tbl-2 {
+    width: 130px;
+}
+#netlist table th.tbl-3 {
+    width: 330px;
+}
+#netlist table th.tbl-4 {
+    width: auto;
+}
+#netlist table td {
+    line-height: 1.5em;
+    padding: 6px 0;
+}
+#netlist table td.netname, #netlist table td.netaddress {
+    padding: 0 12px;
+}
+#netlist table td.col1 {
+    text-align: center;
+}
+#netlist table td.col1 a {
+    color: #008000;
+}
+#netlist table td.col1 a:hover {
+    text-decoration: underline;
+}
+#netlist table td.phone {
+    padding: 0 5px;
+    text-align: center;
+}
+#netlist table td.tl {
+    text-align: left;
+}
+#netlist table td.tc {
+    text-align: center;
+}
+#netlist table td.tr {
+    text-align: right;
+}
+#netlist .pager_wrapper {
+    height: 28px;
+    padding-top: 10px;
+}
+#netlist .params {
+    display: none;
+}
+#netlist .notfound {
+    color: #FF0000;
+    height: 24px;
+    line-height: 24px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#netlist .params {
+    display: none;
+}
+#netlist .pager_wrapper {
+    height: 28px;
+    padding-top: 10px;
+}
+.pager_wrapper {
+    clear: both;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+.paginator {
+    border: 0 solid #C7E1EF;
+    display: inline;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+.paginator a, .paginator span {
+    border: 1px solid #DDDDDD;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 2px 0 0;
+    overflow: hidden;
+    padding: 0 8px;
+    width: auto;
+}
+.paginator a {
+    color: #008000;
+    text-decoration: none;
+}
+.paginator span {
+    color: #AAAAAA;
+}
+.paginator span.current {
+    background: none repeat scroll 0 0 #CAE8EA;
+    color: #797268;
+    font-weight: bold;
+}
+.paginator a:hover {
+    background: none repeat scroll 0 0 #DFF6FF;
+}
+#current_area {
+    display: none;
+}
